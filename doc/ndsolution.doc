@@ -10,6 +10,7 @@
 
 In this chapter we propose a non-dimensional formulation of the two-phase sediment transport equations and we show the necessary steps required in order to obtain a non-dimensional solution. First the governing equations in their non-dimensional form are presented. Afterward we demonstrate how to perform some of the SedFoam tutorials simulations using the non-dimensional formulation.
 
+
 \section nd_gov_eq Non-dimensional governing equations
 
 The non-dimensional formulation of the two-phase flow equations starts with the selection of characteristic quantities. In particular, a characteristic length and a characteristic velocity scale need to be selected. For example, in the case of a turbulent flow in an open channel, the channel height \f$x_c=H\f$ and the friction velocity \f$u_c=u_{\tau}\f$, are usually selected. A characteristic timescale can then also be obtained as \f$t_c=H/u_{\tau}\f$. The non-dimensional formulation of the turbulence-averaged two-phase flow governing equations is presented below. The characteristic quantities of the open channel flow are used in the derivation of the non-dimensional equations for the shake of convenience. Non-dimensional quantities are marked with an asterisk. The closure models for particle–particle interaction, flow turbulence, and turbulence–sediment interaction terms are those presented in the *Governing equations* section of this guide. For more details the interested reader is also referred to <a href="https://gmd.copernicus.org/articles/10/4367/2017/">Chauchat et al. (2017)</a>. 
